@@ -43,6 +43,7 @@
 <div class="container mt-5">
   <form action=index.php class="d-flex items-center">
     <input name=tweet class="form-control" placeholder="Start typing..." />
+    <!-- When the user presses this button the tweet will be added to the database table and printed on the frontend -->
     <button type=submit class="btn btn-primary">POST</button>
   </form>
 </div>
